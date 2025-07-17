@@ -1,0 +1,19 @@
+{
+  "name": "Alphabetically sort costumes",
+  "description": "Sorts costumes in the costume pane alphabetically by name.",
+  "credits": [
+    { "name": "OpenAI Codex" }
+  ],
+  "userscripts": [
+    {
+      "url": "userscript.js",
+      "matches": ["projects"]
+    }
+  ],
+  "dynamicEnable": true,
+  "dynamicDisable": true,
+  "versionAdded": "1.44.0",
+  "tags": ["editor"],
+  "enabledByDefault": false,
+  "libraries": ["scratch-gui"]
+}

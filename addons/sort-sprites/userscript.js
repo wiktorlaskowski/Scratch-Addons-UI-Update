@@ -6,8 +6,8 @@ export default async function ({ addon }) {
     if (!container) return;
     const items = Array.from(container.children);
     items.sort((a, b) => {
-      const nameA = a.querySelector("[class*='sprite-selector_sprite-name']").innerText.toLowerCase();
-      const nameB = b.querySelector("[class*='sprite-selector_sprite-name']").innerText.toLowerCase();
+      const nameA = a.querySelector("[class^='sprite-selector-item_sprite-name']").innerText.toLowerCase();
+      const nameB = b.querySelector("[class^='sprite-selector-item_sprite-name']").innerText.toLowerCase();
       return nameA.localeCompare(nameB);
     });
     for (const item of items) {

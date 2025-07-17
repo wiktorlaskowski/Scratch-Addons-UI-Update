@@ -161,6 +161,8 @@
   "costume-editor-shortcuts",
   "live-read-topics",
   "sort-sprites",
+  "sort-costumes",
+  "sort-sounds",
 
   "// NEW ADDONS ABOVE THIS ↑↑",
   "// Note: these themes need this exact order to work properly,",
